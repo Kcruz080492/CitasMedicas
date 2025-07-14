@@ -35,7 +35,7 @@ function FormularioCita() {
     // Se muestra el formulario con los tres campos y un botón para guardar 
     return (
         <form onSubmit={handleSubmit}>
-            <h2>Registar cita médica</h2>
+            <h2>Registrar cita médica</h2>
             {/*Campo para escribir el nombre del paciente*/}
             <input
                 type="text"
