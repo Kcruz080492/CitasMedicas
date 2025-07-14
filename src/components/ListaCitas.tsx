@@ -5,7 +5,7 @@ import { collection, onSnapshot } from "firebase/firestore";
 //Importamos la conexion a la base de datos
 import { db } from "../firebase/config";
 //Se importa la interfaz Cita 
-import type { Cita } from "../types/cita.ts";
+import type { Cita } from "../types/Cita.ts";
 
 function ListaCitas() {
     //Creamos un estado para guardar el arreglo de citas. 

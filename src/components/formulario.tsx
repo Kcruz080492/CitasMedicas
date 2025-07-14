@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../firebase/config";
-import type { Cita } from "../types/cita.ts";
+import type { Cita } from "../types/Cita.ts";
 
 function FormularioCita() {
     //Se crea un estado para manejar los datos del formulario (sin el campo Id)

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import FormularioCita from "./components/formulario.tsx";
 import ListaCitas from "./components/ListaCitas.tsx";
