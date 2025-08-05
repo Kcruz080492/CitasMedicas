@@ -40,4 +40,4 @@ function ListaCitas() {
     );
 }
 //Se exporta el componente para que pueda ser usado en App.Tsx
-export default ListaCitas
+export default ListaCitas;
