@@ -34,7 +34,7 @@ function ListaCitas() {
                         {/*Se muestra el nombre del paciente, la fecha y la hora de la cita*/}
                         {cita.nombre} - {cita.fecha} - {cita.hora}
                     </li>
-                ))};
+                ))}
             </ul>
         </div>
     );
